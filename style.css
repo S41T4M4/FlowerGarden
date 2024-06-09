@@ -1015,22 +1015,13 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   
   color: rgb(172, 11, 145); 
 }
-.batima {
-  position: absolute;
-  top: 0; /* Alinha a parte superior da imagem com o topo do contêiner pai */
-  right: 0; /* Alinha a parte direita da imagem com a borda direita do contêiner pai */
-  max-width: 10%; /* Define a largura máxima da imagem como 20% do contêiner pai */
-  height: auto; /* Mantém a proporção da imagem */
-}
-
-.refs {
-  position: absolute;
-  top: calc(100% + 10px); /* Alinha o topo do .refs abaixo da imagem e adiciona um espaço de 10px */
-  right: 20px; /* Alinha a parte direita de .refs com a borda direita do contêiner pai */
-  color: #970272;
+.refs{
+  position: fixed;
+  font-size: 20px;
+  bottom: 20px;
+  top: 10px; 
+  right: 20px;
+  color:#970272;
   padding: 20px;
   font-family: cursive;
-  z-index: 1; /* Ajuste o z-index conforme necessário */
-  visibility: visible; /* Certifique-se de que o texto esteja visível */
 }
-
